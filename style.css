@@ -274,11 +274,22 @@ span.social-icons i{
         justify-content: center;
         align-items: center;
         width: 100%;
-        margin: 40px 0;
+        margin-top: 20px;
     }
 
     .logo-area, .menu-area{
-        margin: 15px 0;
+        margin: 5px 0;
+    }
+
+    .menu-area ul{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+
+    .menu-area ul li{
+        margin: 10px 0;
     }
 
     .banner-design{
@@ -292,6 +303,10 @@ span.social-icons i{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .banner-image{
+        transform: scale(0.8);
     }
 
     .brand-logo{
