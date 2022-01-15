@@ -2,4 +2,35 @@
     margin: 0;
     padding: 0;
     font-family: 'Fira Sans', sans-serif;
+    color: #03203C;
+}
+
+.header-container{
+    width: 85%;
+    margin: auto;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-area h2{
+    letter-spacing: 2px;
+    font-size: 1.5em;
+}
+
+.menu-area ul{
+    display: flex;
+    align-items: center;
+
+}
+
+.menu-area ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+.menu-area ul li a{
+    text-decoration: none;
+    
 }
