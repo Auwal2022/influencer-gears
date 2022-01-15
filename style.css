@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+
+/* ----------header start from  here------------- */
+
+
 .header-container{
     width: 85%;
     margin: auto;
@@ -37,6 +41,10 @@
 }
 
 
+
+
+
+/* ----------banner Design start from  here------------- */
 
 
 .banner-design{
@@ -107,6 +115,9 @@ a.btns:hover > i{
 
 
 
+
+/* ----------brand logo desgin start from  here------------- */
+
 .brand-logos{
     width: 85%;
     margin: 70px auto;
@@ -133,6 +144,8 @@ a.btns:hover > i{
 
 
 
+
+/* ----------popularb colection section start from  here------------- */
 
 
 .popular-collection{
@@ -185,3 +198,57 @@ a.btns:hover > i{
 }
 
 
+
+
+/* ----------features content start from  here------------- */
+
+
+.features-container{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.features-text{
+    margin-left: 80px;
+    
+}
+
+.features-text h1{
+    font-size: 2em;
+    margin: 15px 0;
+}
+
+.features-text > .btns{
+    border-radius: 0;
+}
+
+
+
+
+footer{
+    width: 100%;
+    background: #0D0D0D;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.footer-text .text-color{
+    color: #fff;
+    line-height: 1.5em;
+}
+
+
+span.social-icons i{
+    margin: 15px 5px;
+    padding: 9px 10px;
+    background: #000;
+    border-radius: 5px;
+    color: #fff;
+}
