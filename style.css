@@ -123,6 +123,7 @@ a.btns:hover > i{
     margin: 70px auto;
     display: flex;
     justify-content: center;
+    
 }
 
 .brand-logo{
@@ -131,13 +132,14 @@ a.btns:hover > i{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     border-top: 2px solid #35BDD0;
     border-bottom: 2px solid #35BDD0;
     padding: 20px 0;
 }
 
 .brand-logo img{
-    margin: 0 30px;
+    margin: 15px 30px;
 }
 
 
@@ -155,6 +157,7 @@ a.btns:hover > i{
 
 .popular-collection h1{
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .items-container{
@@ -228,6 +231,9 @@ a.btns:hover > i{
 
 
 
+
+/* ----------fooeter start from  here------------- */
+
 footer{
     width: 100%;
     background: #0D0D0D;
@@ -240,7 +246,7 @@ footer{
 }
 
 .footer-text .text-color{
-    color: #fff;
+    color: rgba(255,255,255,0.8);
     line-height: 1.5em;
 }
 
@@ -252,3 +258,81 @@ span.social-icons i{
     border-radius: 5px;
     color: #fff;
 }
+
+
+
+
+
+
+
+/* responsive code start grfrom here */
+
+@media screen and (max-width: 688px){
+    .header-container{
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 40px 0;
+    }
+
+    .logo-area, .menu-area{
+        margin: 15px 0;
+    }
+
+    .banner-design{
+        flex-direction: column-reverse;
+    }
+
+    .content-text{
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .brand-logo{
+        border: none;
+    }
+
+    .items-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item{
+        width: 340px;
+    }
+
+    .features-container{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .features-text{
+        margin-left: 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    
+}
+
+
+@media  and (min-width: 688px and max-width: 992px) {
+    
+}
+
+
+
+
+
+
