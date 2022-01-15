@@ -327,8 +327,59 @@ span.social-icons i{
 }
 
 
-@media  and (min-width: 688px and max-width: 992px) {
-    
+/* for table */
+
+
+@media screen and (min-width: 688px) and (max-width: 992px){
+    .header-container{
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 40px 0;
+    }
+
+    .logo-area, .menu-area{
+        margin: 15px 0;
+    }
+
+    .banner-design{
+        flex-direction: column-reverse;
+    }
+
+    .content-text{
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .items-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .item{
+        width: 340px;
+    }
+
+    .features-container{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .features-text{
+        margin: auto;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+    }
 }
 
 
